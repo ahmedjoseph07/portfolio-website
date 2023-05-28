@@ -168,9 +168,247 @@ footer{
     height: 100vh;
   }
 }
+@media screen and (max-height: 528px) {
+  .secondSection {
+    height: 110vh;
+  }
+}
+@media screen and (max-height: 480px) {
+  .secondSection {
+    height: 120vh;
+  }
+}
+@media screen and (max-height: 440px) {
+  .secondSection {
+    height: 130vh;
+  }
+}
+@media screen and (max-width:1794px){
+  .secondSection .vertical {
+    margin: 0 110px;
+  }
+}
 
-@media screen and (max-width:1366px){
+@media screen and (max-width:1592px){
+  .secondSection .vertical {
+    margin: 0 100px;
+  }
+}
+
+@media screen and (max-width:1486px){
+  .secondSection .vertical {
+    margin: 0 95px;
+  }
+}
+@media screen and (max-width:1380px){
+  .secondSection .vertical {
+    margin: 0 90px;
+  }
+}
+@media screen and (max-width:1266px){
   .secondSection .vertical {
     margin: 0 85px;
+  }
+}
+@media screen and (max-width:1216px){
+  .secondSection .vertical {
+    margin: 0 75px;
+
+  }
+}
+
+@media screen and (max-width:1150px){
+  .secondSection .vertical {
+    margin: 0 71px;
+  }
+}
+@media screen and (max-width:1035px){
+  .secondSection .vertical {
+    margin: 0 72px;
+    /* margin-left:-20px; */
+    /* padding:4px; */
+  }
+  .box{
+    /* margin-left: -49px; */
+  }
+}
+
+@media screen and (max-width:1035px){
+  .vertical-desc{
+    display:none;
+  }
+  .vertical-tittle{
+    font-size: small;
+    margin: 0px;
+    padding:0px;
+    /* display:flex; */
+  }
+  .secondSection .vertical{
+    /* margin:150px 90px; */
+    margin-left:40px;
+    height:-24px;
+  }
+  .box{
+    /* display: none; */
+  }
+  .leftSection{
+    font-size: large;
+  }
+  footer{
+    margin-top: -69px;
+  }
+  .secondSection{
+    height:52vh;
+  }
+  .leftSection .btn{
+    margin-top: 40px;;
+  }
+  .btn2{
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width:810px){
+  .left{
+    display:none;
+  }
+  footer h3{
+    display:none;
+  }
+  .footer{
+    margin-left: -303px;
+  }
+}
+@media screen and (max-width:800px){
+  .secondSection{
+    margin:0 55px;
+  }
+}
+
+@media screen and (max-width:800px){
+  .secondSection{
+    margin:0 55px;
+  }
+}
+@media screen and (max-width:750px){
+  .secondSection .box{
+    /* border:solid red 1px; */
+    /* display:none; */
+    /* display:block */
+    /* margin:10px 0px; */
+  }
+  .image-top{
+    display:none;
+  }
+  .secondSection .box{
+    height:0px;
+    display:flex;
+    flex-direction: column;
+  }
+  .secondSection .vertical{
+    /* border:none; */
+    width:0px;
+    /* height: 0px; */
+    /* background-color: red; */
+  }
+  .vertical-tittle{
+    position: relative;
+    top: -50px;
+    width: 150px;
+    /* font-size: 14px; */
+    color: rgb(234, 93, 93);
+  }
+  .secondSection h1{
+    margin-top:-35px;
+  }
+}
+@media screen and (max-width:750px){
+  .footer{
+    padding-right: 28px;
+    /* margin-right: -20px; */
+  }
+}
+/* @media screen and (max-width:560px){
+  .footer{
+    padding-right: 28px;
+    margin-right: -100px;
+  }
+} */
+@media screen and (max-width:390px){
+  .footer{
+    padding-right: 28px;
+    margin-right: -68px;
+  }
+
+*{
+  margin-right:-3px;
+}
+} 
+@media screen and (max-width:300px){
+  .footer{
+    /* padding-right: 40px; */
+    /* margin-right: -70px; */
+  }
+  .footer-rights{
+    display:none;
+  }
+}
+@media screen and (max-width:290px){
+  .firstSection .devme{
+    display:none;
+  }
+}
+
+@media screen and (max-width:672px){
+  .firstSection .devme{
+    /* height: 77%;
+    width: 108%; */
+    margin-left: -97px;
+    margin-right: 47px;
+  }
+}
+@media screen and (max-width:400px){
+  .firstSection .devme{
+    height: 77%;
+    width: 108%;
+    padding-right: 0px;
+    margin-left: -18px;
+    margin-right: 47px;
+  }
+}
+@media screen and (max-width:290px){
+  .firstSection .leftSection{
+    display:inline;
+
+    font-size:25px;
+    /* color:red; */
+  }
+  footer .fbtns{
+    margin-left: 50px;;
+  }
+}
+@media screen and (max-width:495px){
+      nav ul li{
+    margin: 0 16px;
+      }
+}
+
+@media screen and (max-width:435px){
+  nav ul li{
+    margin: 0 10px;
+    font-size: small;
+  }
+}
+@media screen and (max-width:335px){
+  nav ul li{
+    margin: 0 4px;
+    font-size: small;
+  }
+}
+@media screen and (max-width:470px){
+  .firstSection .devme{
+    margin-left: -31px;
+  }
+  .footer{
+    margin-left: -159px;
   }
 }
