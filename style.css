@@ -85,7 +85,7 @@ nav ul li a:hover {
 .secondSection{
   max-width: 80vw;
   margin:auto;
-  height:80vh;
+  height:70vh;
 }
 main hr{
   border:0;
@@ -135,16 +135,17 @@ main hr{
 }
 footer{
   background-color: rgba(177, 178, 238, 0.418);
-  padding: 10px;
+  /* padding: 10px; */
+  position:sticky;
 }
 .footer{
   display: flex;
-  /* padding:30px 122px; */
+  padding:30px 122px;
   justify-content:space-around;
 }
 .footer-rights{
   text-align: center;
-  color: rgb(170, 90, 245);
+  color: rgb(86, 233, 28);
 }
 .footer-list{
   list-style-type:none;
@@ -160,4 +161,16 @@ footer{
   padding:5px;
   border-radius: 10px;
   background-color: rgb(113, 113, 252);
+}
+
+@media screen and (max-height: 856px) {
+  .secondSection {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width:1366px){
+  .secondSection .vertical {
+    margin: 0 85px;
+  }
 }
